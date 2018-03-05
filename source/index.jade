@@ -10,10 +10,10 @@ html(lang='en')
   body
     header
     main
-      video.mejs__player(controls="controls" preload="none")
+      video.mejs__player(controls="controls" preload="none" )
         source(type="video/mp4" src="videos/video.mp4")
         source(type="video/webm" src="videos/video.webm")
-        source(type="video/ogg" src="videos/video.ogv")
+        source(type="video/ogg" src="videos/video.ogg")
         track(src="videos/captions.vtt" kind="subtitles" srclang="en" label="English")
       p
         span Now that we've looked at the architecture of the internet, let's see how you might
