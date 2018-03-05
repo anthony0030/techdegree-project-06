@@ -25,23 +25,26 @@
     <meta name="theme-color" content="#ffffff">
   </head>
   <body>
-    <header></header>
     <main>
-      <video controls="controls" preload="none" class="mejs__player">
-        <source type="video/mp4" src="videos/video.mp4">
-        <source type="video/webm" src="videos/video.webm">
-        <source type="video/ogg" src="videos/video.ogg">
-        <track src="videos/captions.vtt" kind="subtitles" srclang="en" label="English">
-      </video>
-      <p><span>Now that we've looked at the architecture of the internet, let's see how you might</span><span>connect your personal devices to the internet inside your house.</span><span>Well there are many ways to connect to the internet, and</span><span>most often people connect wirelessly.</span></p>
-      <p><span>Let's look at an example of how you can connect to the internet.</span><span>If you live in a city or a town, you probably have a coaxial cable for</span><span>cable Internet, or a phone line if you have DSL, running to the outside of</span><span>your house, that connects you to the Internet Service Provider, or ISP.</span><span>If you live far out in the country, you'll more likely have</span><span>a dish outside your house, connecting you wirelessly to your closest ISP, or</span><span>you might also use the telephone system.</span></p>
-      <P><span>Whether a wire comes straight from the ISP hookup outside your house, or</span><span>it travels over radio waves from your roof,</span><span>the first stop a wire will make once inside your house, is at your modem.</span><span>A modem is what connects the internet to your network at home.</span><span>A few common residential modems are DSL or</span></P>
+      <div class="video-wraper">
+        <video id="video1" preload="none" data-mejsoptions="{&quot;stretching&quot;: &quot;responsive&quot;, &quot;alwaysShowControls&quot;: &quot;true&quot;}" class="mejs__player">
+          <source type="video/mp4" src="videos/video.mp4">
+          <source type="video/webm" src="videos/video.webm">
+          <source type="video/ogg" src="videos/video.ogg">
+          <track src="videos/captions.vtt" kind="subtitles" srclang="en" label="English">
+        </video>
+      </div>
+      <div class="captions-text">
+        <p class="caption-p"><span value="0" class="caption">Now that we've looked at the architecture of the internet, let's see how you might </span><span value="4" class="caption">connect your personal devices to the internet inside your house. </span><span value="7" class="caption">Well there are many ways to connect to the internet, and </span><span value="11" class="caption">most often people connect wirelessly. </span></p>
+        <p class="caption-p"><span value="13" class="caption">Let's look at an example of how you can connect to the internet. </span><span value="17" class="caption">If you live in a city or a town, you probably have a coaxial cable for </span><span value="22" class="caption">cable Internet, or a phone line if you have DSL, running to the outside of </span><span value="26" class="caption">your house, that connects you to the Internet Service Provider, or ISP. </span><span value="32" class="caption">If you live far out in the country, you'll more likely have </span><span value="34" class="caption">a dish outside your house, connecting you wirelessly to your closest ISP, or </span><span value="39" class="caption">you might also use the telephone system. </span></p>
+        <P class="caption-p"><span value="42" class="caption">Whether a wire comes straight from the ISP hookup outside your house, or </span><span value="46" class="caption">it travels over radio waves from your roof, </span><span value="49" class="caption">the first stop a wire will make once inside your house, is at your modem. </span><span value="53" class="caption">A modem is what connects the internet to your network at home. </span><span value="57" class="caption">A few common residential modems are DSL or </span></P>
+      </div>
     </main>
     <footer>
       <script src="bower_components/jquery/dist/jquery.js"></script>
       <script src="bower_components/mediaelement/build/mediaelement-and-player.min.js"></script>
       <link rel="stylesheet" href="bower_components/mediaelement/build/mediaelementplayer.min.css">
-      <script src="script.js"> </script>
+      <script src="script.js"></script>
     </footer>
   </body>
 </html>
