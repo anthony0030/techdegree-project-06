@@ -2213,6 +2213,19 @@
 		"oAP": "\/docs\/mockups",
 		"oF": 0
 		},
+	"\/source\/sass\/_variables.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/docs\/sass\/_variables.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/source\/sass\/styles.sass": {
 		"aP": 0,
 		"bl": 0,
