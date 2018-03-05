@@ -1807,13 +1807,41 @@
 		"oAP": "\/docs\/bower_components\/normalize-css\/.travis.yml",
 		"oF": 1
 		},
-	"\/source\/bower_components\/normalize-css\/bower.json": {
-		"ft": 524288,
+	"\/source\/bower_components\/normalize-css\/CHANGELOG.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
 		"oA": 2,
-		"oAP": "\/docs\/bower_components\/normalize-css\/bower.json",
-		"oF": 1,
-		"oO": 0,
-		"oS": 1
+		"oAP": "\/docs\/bower_components\/normalize-css\/CHANGELOG.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/source\/bower_components\/normalize-css\/CONTRIBUTING.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/docs\/bower_components\/normalize-css\/CONTRIBUTING.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		},
 	"\/source\/bower_components\/normalize-css\/LICENSE.md": {
 		"cB": 0,
@@ -1843,9 +1871,50 @@
 		"oF": 1,
 		"oS": 3
 		},
+	"\/source\/bower_components\/normalize-css\/package-lock.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/docs\/bower_components\/normalize-css\/package-lock.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/source\/bower_components\/normalize-css\/package.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/docs\/bower_components\/normalize-css\/package.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/source\/bower_components\/normalize-css\/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/docs\/bower_components\/normalize-css\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/source\/bower_components\/normalize-css\/test.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/docs\/bower_components\/normalize-css\/test.html",
+		"oF": 0
+		},
 	"\/source\/favicon\/android-icon-144x144.png": {
 		"ft": 32768,
-		"iS": 4495,
+		"iS": 7729,
 		"oA": 2,
 		"oAP": "\/docs\/favicon\/android-icon-144x144.png",
 		"oF": 0,
