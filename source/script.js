@@ -3,7 +3,7 @@ const captionsContainer = document.querySelector("div.captions-text");
 // const captionP = document.querySelectorAll("p.caption-p");
 const vid = document.getElementById("video1");
 var oldActive = document.querySelector("[value='"+Math.round(vid.currentTime)+"']");
-
+var curentActive = document.querySelector("[value='"+Math.round(vid.currentTime)+"']");
 
 captionsContainer.addEventListener('click', function(e){
   var time = e.target.getAttribute("value");
@@ -15,8 +15,8 @@ captionsContainer.addEventListener('click', function(e){
 });
 
 
-vid.addEventListener('timeupdate', function(){
-  var curentActive = document.querySelector("[value='"+Math.round(vid.currentTime)+"']");
+function setActiveP() {
+  curentActive = document.querySelector("[value='"+Math.round(vid.currentTime)+"']");
   // console.log(curentActive);
   if(curentActive !== null){
     curentActive.classList.add("active-text");
@@ -27,4 +27,6 @@ vid.addEventListener('timeupdate', function(){
   }
   // console.log(Math.round(vid.currentTime));
   // console.log(document.querySelectorAll("[value='"+Math.round(vid.currentTime)+"']"));
-});
+}
+
+vid.addEventListener('timeupdate', setActiveP);

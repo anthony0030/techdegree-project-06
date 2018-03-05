@@ -24,12 +24,6 @@
 		"oO": 0,
 		"oS": 1
 		},
-	"\/docs": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "\/docs\/docs",
-		"oF": 0
-		},
 	"\/README.md": {
 		"cB": 0,
 		"cS": 0,
@@ -2300,7 +2294,7 @@
 	"displayValue": "techdegree-project-6",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-cocaine",
-	"lastBuiltDate": 541958124
+	"lastBuiltDate": 541961012
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
