@@ -2160,28 +2160,28 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/docs\/videos\/captions.txt",
-		"oF": 0
+		"oF": 1
 		},
 	"\/source\/videos\/captions.vtt": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/docs\/videos\/captions.vtt",
-		"oF": 0
+		"oF": 1
 		},
 	"\/source\/videos\/video.mp4": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/docs\/videos\/video.mp4",
-		"oF": 0
+		"oF": 1
 		},
 	"\/source\/videos\/video.ogg": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/docs\/videos\/video.ogg",
-		"oF": 0
+		"oF": 1
 		}
 	},
 "hooks": [
