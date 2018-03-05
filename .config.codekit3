@@ -24,11 +24,23 @@
 		"oO": 0,
 		"oS": 1
 		},
-	"\/docs": {
-		"ft": 65536,
+	"\/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
 		"oA": 1,
-		"oAP": "\/docs\/docs",
-		"oF": 0
+		"oAP": "\/docs\/README.html",
+		"oF": 1,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		},
 	"\/source\/_favicon.jade": {
 		"cB": 0,
@@ -2193,7 +2205,7 @@
 	"displayValue": "techdegree-project-6",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-cocaine",
-	"lastBuiltDate": 541684658
+	"lastBuiltDate": 541930861
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
