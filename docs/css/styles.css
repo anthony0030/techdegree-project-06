@@ -1,37 +1,37 @@
-/* line 3, Users/anthonyveaudry/Sites/techdegree-project-6/source/sass/styles.sass */
+/* line 3, Users/anthonyveaudry/Sites/techdegree-project-06/source/sass/styles.sass */
 * {
   box-sizing: border-box;
   max-width: 100vw; }
 
-/* line 8, Users/anthonyveaudry/Sites/techdegree-project-6/source/sass/styles.sass */
+/* line 8, Users/anthonyveaudry/Sites/techdegree-project-06/source/sass/styles.sass */
 .video-wraper {
   width: 100%; }
 
-/* line 12, Users/anthonyveaudry/Sites/techdegree-project-6/source/sass/styles.sass */
+/* line 12, Users/anthonyveaudry/Sites/techdegree-project-06/source/sass/styles.sass */
 .captions-text {
   padding: 0 6%;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 24px;
   font-size: 17px; }
-  /* line 18, Users/anthonyveaudry/Sites/techdegree-project-6/source/sass/styles.sass */
+  /* line 18, Users/anthonyveaudry/Sites/techdegree-project-06/source/sass/styles.sass */
   .captions-text span:hover {
     color: #ffae42; }
 
-/* line 21, Users/anthonyveaudry/Sites/techdegree-project-6/source/sass/styles.sass */
+/* line 21, Users/anthonyveaudry/Sites/techdegree-project-06/source/sass/styles.sass */
 .active-text {
   color: #ffae42; }
 
-/* line 36, Users/anthonyveaudry/Sites/techdegree-project-6/source/sass/styles.sass */
+/* line 36, Users/anthonyveaudry/Sites/techdegree-project-06/source/sass/styles.sass */
 .mejs__controls {
   background: #ffae42 !important; }
 
 @media (min-width: 768px) {
-  /* line 44, Users/anthonyveaudry/Sites/techdegree-project-6/source/sass/styles.sass */
+  /* line 44, Users/anthonyveaudry/Sites/techdegree-project-06/source/sass/styles.sass */
   .video-wraper {
     width: 60%;
     margin: 0 auto;
     text-align: justify; }
-  /* line 49, Users/anthonyveaudry/Sites/techdegree-project-6/source/sass/styles.sass */
+  /* line 49, Users/anthonyveaudry/Sites/techdegree-project-06/source/sass/styles.sass */
   .captions-text {
     width: 72%;
     margin: 0 auto; } }
