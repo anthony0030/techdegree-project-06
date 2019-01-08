@@ -1,1 +1,32 @@
-function setActiveP(){null!==(curentActive=document.querySelector("[value='"+Math.round(vid.currentTime)+"']"))&&(curentActive.classList.add("active-text"),oldActive!==curentActive&&(oldActive.classList.remove("active-text"),oldActive=curentActive))}const captionsContainer=document.querySelector("div.captions-text"),vid=document.getElementById("video1");var oldActive=document.querySelector("[value='"+Math.round(vid.currentTime)+"']"),curentActive=document.querySelector("[value='"+Math.round(vid.currentTime)+"']");captionsContainer.addEventListener("click",function(e){var t=e.target.getAttribute("value");null!==t&&(document.getElementById("video1").currentTime=t,document.getElementById("video1").play())}),vid.addEventListener("timeupdate",setActiveP);
+const captionsContainer = document.querySelector("div.captions-text");
+// const captions = document.querySelectorAll("span.caption");
+// const captionP = document.querySelectorAll("p.caption-p");
+const vid = document.getElementById("video1");
+var oldActive = document.querySelector("[value='"+Math.round(vid.currentTime)+"']");
+var curentActive = document.querySelector("[value='"+Math.round(vid.currentTime)+"']");
+
+captionsContainer.addEventListener('click', function(e){
+  var time = e.target.getAttribute("value");
+  // console.log(time);
+  if (time !== null) {
+    document.getElementById('video1').currentTime = time;
+    document.getElementById('video1').play();
+  }
+});
+
+
+function setActiveP() {
+  curentActive = document.querySelector("[value='"+Math.round(vid.currentTime)+"']");
+  // console.log(curentActive);
+  if(curentActive !== null){
+    curentActive.classList.add("active-text");
+    if(oldActive !== curentActive){
+      oldActive.classList.remove("active-text");
+      oldActive = curentActive;
+    }
+  }
+  // console.log(Math.round(vid.currentTime));
+  // console.log(document.querySelectorAll("[value='"+Math.round(vid.currentTime)+"']"));
+}
+
+vid.addEventListener('timeupdate', setActiveP);
