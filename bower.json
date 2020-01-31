@@ -33,11 +33,6 @@
   ],
   "private": true,
   "dependencies": {
-    "mediaelement": "^4.2.9",
-    "jquery": "^3.3.1",
-    "normalize-css": "^8.0.0"
-  },
-  "resolutions": {
-    "normalize-css": "^8.0.0"
+    "mediaelement": "^4.2.9"
   }
 }

@@ -25,12 +25,6 @@
 		"oO": 0,
 		"oS": 1
 		},
-	"/docs": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "/docs/docs",
-		"oF": 0
-		},
 	"/node_modules": {
 		"ft": 65536,
 		"oA": 2,
@@ -2533,7 +2527,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-cocaine",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 602176536.14397705
+	"lastBuiltDate": 602176744.68363404
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
