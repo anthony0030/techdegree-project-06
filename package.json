@@ -8,6 +8,7 @@
   "repository": {},
   "dependencies": {
     "jquery": "^3.4.1",
+    "mediaelement": "^4.2.14",
     "normalize.css": "^8.0.1"
   }
 }
