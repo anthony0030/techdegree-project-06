@@ -17,11 +17,41 @@
 		"oAP": "/docs/.gitignore",
 		"oF": 1
 		},
+	"/.vscode/settings.json": {
+		"ft": 524288,
+		"oA": 0,
+		"oAP": "/docs/.vscode/settings.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"/docs": {
 		"ft": 65536,
 		"oA": 1,
 		"oAP": "/docs/docs",
 		"oF": 0
+		},
+	"/mockups/mobile.png": {
+		"ft": 32768,
+		"iS": 184141,
+		"oA": 0,
+		"oAP": "/docs/mockups/mobile.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/mockups/tablet-desktop.png": {
+		"ft": 32768,
+		"iS": 347520,
+		"oA": 0,
+		"oAP": "/docs/mockups/tablet-desktop.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"/node_modules": {
 		"ft": 65536,
@@ -371,28 +401,6 @@
 		"oAP": "/docs/index.html",
 		"oF": 0,
 		"oS": 0
-		},
-	"/source/mockups/mobile.png": {
-		"ft": 32768,
-		"iS": 184141,
-		"oA": 0,
-		"oAP": "/docs/mockups/mobile.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"/source/mockups/tablet-desktop.png": {
-		"ft": 32768,
-		"iS": 347520,
-		"oA": 0,
-		"oAP": "/docs/mockups/tablet-desktop.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
 		},
 	"/source/sass/_variables.sass": {
 		"aP": 0,
