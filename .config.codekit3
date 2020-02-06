@@ -17,6 +17,12 @@
 		"oAP": "/docs/.gitignore",
 		"oF": 1
 		},
+	"/docs": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "/docs/docs",
+		"oF": 0
+		},
 	"/node_modules": {
 		"ft": 65536,
 		"oA": 2,
