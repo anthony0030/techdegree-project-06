@@ -86,14 +86,28 @@ Object.assign(MediaElementPlayer.prototype, {
 						player.startControlsTimer();
 					}
 
-					var timeSlider = player.getElement(player.container).querySelector('.' + _player.config.classPrefix + 'time-total');
+					var timeSlider = player.getElement(player.container).querySelector(`.${t.options.classPrefix}time-total`);
 					if (timeSlider) {
 						timeSlider.focus();
 					}
 
 					// 5%
 					const newTime = Math.max(player.currentTime - player.options.defaultSeekBackwardInterval(player), 0);
-					player.setCurrentTime(newTime);
+					
+					// pause to track current time
+					if (!player.paused) {
+						player.pause();
+					}
+
+					// make sure time is updated after 'pause' event is processed
+					setTimeout(function() {
+						player.setCurrentTime(newTime);
+					}, 0);
+
+					// start again to track new time
+					setTimeout(function() {
+						player.play();
+					}, 0);
 				}
 			}
 		},
@@ -110,14 +124,28 @@ Object.assign(MediaElementPlayer.prototype, {
 						player.startControlsTimer();
 					}
 
-					var timeSlider = player.getElement(player.container).querySelector('.' + _player.config.classPrefix + 'time-total');
+					var timeSlider = player.getElement(player.container).querySelector(`.${t.options.classPrefix}time-total`);
 					if (timeSlider) {
 						timeSlider.focus();
 					}
 
 					// 5%
 					const newTime = Math.min(player.currentTime + player.options.defaultSeekForwardInterval(player), player.duration);
-					player.setCurrentTime(newTime);
+					
+					// pause to track current time
+					if (!player.paused) {
+						player.pause();
+					}
+
+					// make sure time is updated after 'pause' event is processed
+					setTimeout(function() {
+						player.setCurrentTime(newTime);
+					}, 0);
+
+					// start again to track new time
+					setTimeout(function() {
+						player.play();
+					}, 0);
 				}
 			}
 		});
@@ -404,12 +432,15 @@ Object.assign(MediaElementPlayer.prototype, {
 					player.pause();
 				}
 
+				// make sure time is updated after 'pause' event is processed
+				setTimeout(function() {
+					t.setCurrentTime(seekTime);
+				}, 0);
 
 				if (seekTime < t.getDuration() && !startedPaused) {
 					setTimeout(restartPlayer, 1100);
 				}
 
-				t.setCurrentTime(seekTime);
 				player.showControls();
 
 				e.preventDefault();
