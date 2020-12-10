@@ -396,9 +396,9 @@
 		},
 	"/source/favicon/manifest.json": {
 		"ft": 524288,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/docs/favicon/manifest.json",
-		"oF": 0,
+		"oF": 1,
 		"oO": 0,
 		"oS": 1
 		},
@@ -552,7 +552,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-cocaine",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 629289030.23482394
+	"lastBuiltDate": 629290338.83453202
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
