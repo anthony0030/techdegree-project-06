@@ -33,6 +33,12 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"/docs": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "/docs/docs",
+		"oF": 0
+		},
 	"/mockups/mobile.png": {
 		"ft": 32768,
 		"iS": 184141,
