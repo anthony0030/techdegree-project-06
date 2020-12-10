@@ -100,6 +100,14 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"/source/.nojekyll": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/docs/.nojekyll",
+		"oF": 0
+		},
 	"/source/_favicon.jade": {
 		"cB": 0,
 		"cOD": 1,
@@ -544,7 +552,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-cocaine",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 626085081.68436396
+	"lastBuiltDate": 629289030.23482394
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
