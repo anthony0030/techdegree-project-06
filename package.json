@@ -10,7 +10,7 @@
   "homepage": "https://anthony0030.github.io/techdegree-project-06",
   "dependencies": {
     "jquery": "^3.6.0",
-    "mediaelement": "^5.0.2",
+    "mediaelement": "^5.0.3",
     "normalize.css": "^8.0.1"
   }
 }
