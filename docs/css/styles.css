@@ -3,7 +3,7 @@
   box-sizing: border-box;
   max-width: 100vw; }
 
-.video-wraper {
+.video-wrapper {
   width: 100%; }
 
 .captions-text {
@@ -21,7 +21,7 @@
   background: #ffae42 !important; }
 
 @media (min-width: 768px) {
-  .video-wraper {
+  .video-wrapper {
     width: 60%;
     margin: 0 auto;
     text-align: justify; }
