@@ -106,7 +106,7 @@
       "rFN" : 0,
       "uCM" : 0
     },
-    "\/source\/_favicon.jade" : {
+    "\/source\/_favicon.pug" : {
       "cB" : 0,
       "cOD" : 1,
       "ft" : 512,
@@ -564,7 +564,7 @@
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "meme-cocaine",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 629290338.83453202
+    "lastBuiltDate" : 690820694.47396898
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,

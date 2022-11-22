@@ -1,5 +1,5 @@
 // ? ==========================================================================
-// ? Variabless
+// ? Variables
 // ? ==========================================================================
 
 
@@ -38,7 +38,13 @@ $color-shadow    : rgba($black, .2);
 $color-icons     : $white;
 
 // ? UI Colors
-$ui-colors: (default: $fountain-blue, success: $emerald, error: $sunglo, warning: $coral, info: $purple-majesty);
+$ui-colors: (
+  default: $fountain-blue,
+  success: $emerald,
+  error: $sunglo,
+  warning: $coral,
+  info: $purple-majesty
+);
 
 // ? Breakpoints
 $brkpoint-sm    : 1px;
