@@ -3,7 +3,7 @@ const captionsContainer = document.querySelector("div.captions-text");
 // const captionP = document.querySelectorAll("p.caption-p");
 const vid = document.getElementById("video1");
 var oldActive = document.querySelector("[value='"+Math.round(vid.currentTime)+"']");
-var curentActive = document.querySelector("[value='"+Math.round(vid.currentTime)+"']");
+var currentActive = document.querySelector("[value='"+Math.round(vid.currentTime)+"']");
 
 captionsContainer.addEventListener('click', function(e){
   var time = e.target.getAttribute("value");
@@ -16,13 +16,13 @@ captionsContainer.addEventListener('click', function(e){
 
 
 function setActiveP() {
-  curentActive = document.querySelector("[value='"+Math.round(vid.currentTime)+"']");
-  // console.log(curentActive);
-  if(curentActive !== null){
-    curentActive.classList.add("active-text");
-    if(oldActive !== curentActive){
+  currentActive = document.querySelector("[value='"+Math.round(vid.currentTime)+"']");
+  // console.log(currentActive);
+  if(currentActive !== null){
+    currentActive.classList.add("active-text");
+    if(oldActive !== currentActive){
       oldActive.classList.remove("active-text");
-      oldActive = curentActive;
+      oldActive = currentActive;
     }
   }
   // console.log(Math.round(vid.currentTime));
